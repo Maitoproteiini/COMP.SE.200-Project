@@ -19,9 +19,8 @@ Thumbs.db
 jest-cache/
 jest-test-results/
 
-# Optional lock files if you want to ignore them
-package-lock.json
+# Lock files
 yarn.lock
 
-# VSCode folder (if you use VSCode)
+# VSCode folder
 .vscode/
