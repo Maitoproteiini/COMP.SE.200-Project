@@ -1,6 +1,6 @@
 import filter from "../COMP.SE.200-2024-2025-1/src/filter.js";
 
-describe("Tests for upperFirst", () => {
+describe("Tests for filter", () => {
     test("Return even numbers", () => {
         const numbers = [1, 2, 3, 4, 5, 6, 7];
         const result = filter(numbers, (value) => value % 2 === 0);
