@@ -39,6 +39,10 @@ describe("Tests for upperFirst", () => {
         expect(upperFirst(" banana")).toBe(" banana")
     });
 
+    test("Whole word is uppercase", () => {
+        expect(upperFirst("BANANA")).toBe("BANANA")
+    });
+
     test("Lowercase and uppercase mixed", () => {
         expect(upperFirst("Banana apples")).toBe("Banana apples")
         expect(upperFirst("Banana Apples")).toBe("Banana Apples")
