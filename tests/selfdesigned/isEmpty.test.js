@@ -1,4 +1,4 @@
-import isEmpty from "../COMP.SE.200-2024-2025-1/src/isEmpty.js";
+import isEmpty from "../../COMP.SE.200-2024-2025-1/src/isEmpty.js";
 
 describe("Tests for isEmpty", () => {
     test("The cart is empty", () => {

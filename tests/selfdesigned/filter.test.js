@@ -1,4 +1,4 @@
-import filter from "../COMP.SE.200-2024-2025-1/src/filter.js";
+import filter from "../../COMP.SE.200-2024-2025-1/src/filter.js";
 
 describe("Tests for filter", () => {
     test("Return active users", () => {

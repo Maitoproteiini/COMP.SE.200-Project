@@ -1,4 +1,4 @@
-import isArguments from "../COMP.SE.200-2024-2025-1/src/isArguments.js";
+import isArguments from "../../COMP.SE.200-2024-2025-1/src/isArguments.js";
 
 describe("Tests for isArguments", () => {
     test("Function processOrder should receive arguments object", () => {

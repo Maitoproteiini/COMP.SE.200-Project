@@ -1,4 +1,4 @@
-import upperFirst from "../COMP.SE.200-2024-2025-1/src/upperFirst.js";
+import upperFirst from "../../COMP.SE.200-2024-2025-1/src/upperFirst.js";
 
 describe('upperFirst', () => {
   test('should convert the first character of a lowercase string to uppercase', () => {
