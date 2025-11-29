@@ -1,4 +1,4 @@
-import get from "get.js";
+import get from "../COMP.SE.200-2024-2025-1/src/get.js";
 
 describe("Tests for get", () => {
     test("Test getting product price", () => {

@@ -3,9 +3,9 @@ module.exports = {
   transform: {
     "^.+\\.js$": "babel-jest"
   },
-  moduleNameMapper: {
-    "^src/(.*)$": "<rootDir>/$1"
-  },
+  // moduleNameMapper: {
+  //   "^src/(.*)$": "<rootDir>/$1"
+  // },
   collectCoverage: true,
   coverageDirectory: "coverage",
   coverageReporters: ["lcov", "text"],
