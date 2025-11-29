@@ -24,3 +24,6 @@ yarn.lock
 
 # VSCode folder
 .vscode/
+
+# Coverage
+coverage
