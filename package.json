@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "mocha \"tests/**/*.js\"",
+    "test:selfdesigned": "mocha \"tests/selfdesigned/*.js\"",
+    "test:AIgenerated": "mocha \"tests/AIgenerated/*.js\""
+  },
+  "devDependencies": {
+    "mocha": "^11.0.0"
+  }
+}
