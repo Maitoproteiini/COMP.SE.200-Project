@@ -1,6 +1,11 @@
 name: CI Pipeline
 run-name: ${{ github.actor }} initiated a workflow run.
-on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+  workflow_dispatch:
 jobs:
   Unit_Test:
     runs-on: ubuntu-latest
