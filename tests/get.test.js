@@ -1,4 +1,4 @@
-import get from "src/get.js";
+import get from "get.js";
 
 describe("Tests for get", () => {
     test("Test getting product price", () => {

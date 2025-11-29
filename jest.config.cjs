@@ -4,7 +4,7 @@ module.exports = {
     "^.+\\.js$": "babel-jest"
   },
   moduleNameMapper: {
-    "^src/(.*)$": "<rootDir>/COMP.SE.200-2024-2025-1/$1"
+    "^src/(.*)$": "<rootDir>/$1"
   },
   collectCoverage: true,
   coverageDirectory: "coverage",
