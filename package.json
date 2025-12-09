@@ -23,7 +23,16 @@
     "mocha": "^10.2.0"
   },
   "c8": {
-  "include": ["COMP.SE.200-2024-2025-1/src/**/*.js"],
+    "include": [
+    "COMP.SE.200-2024-2025-1/src/add.js",
+    "COMP.SE.200-2024-2025-1/src/eq.js",
+    "COMP.SE.200-2024-2025-1/src/every.js",
+    "COMP.SE.200-2024-2025-1/src/isSymbol.js",
+    "COMP.SE.200-2024-2025-1/src/slice.js",
+    "COMP.SE.200-2024-2025-1/src/toString.js",
+    "COMP.SE.200-2024-2025-1/src/upperFirst.js",
+    "COMP.SE.200-2024-2025-1/src/words.js"
+  ],
   "exclude": ["tests/**"],
   "reporter": ["lcov", "html", "text"],
   "report-dir": "coverage/mocha"
